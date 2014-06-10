@@ -10,8 +10,23 @@ body{
 	
 .top-bar{
 
-background-color:#272;
+background-color:#009;
 
 }
 
+#main_content{
+	padding: 10px;
+	background-color:#FFF;
+}
+.small-8 .column{
+	border-color:#272;
+	border:10px;
+}
 
+.panel.upcoming{
+	padding: 10px;
+	background-color:#CCF;	
+}
+.topborder{
+	background-color:#CCF;	
+}
