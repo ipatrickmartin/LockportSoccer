@@ -16,7 +16,7 @@ background-color:#009;
 
 #main_content{
 	padding: 10px;
-	background-color:#FFF;
+	background-color:#009;
 }
 .small-8 .column{
 	border-color:#272;
@@ -28,5 +28,7 @@ background-color:#009;
 	background-color:#CCF;	
 }
 .topborder{
-	background-color:#CCF;	
+	background-color:#009;	
 }
+.mainrow {background-color:#FFF;	}
+.row .firstrow{margin: 10px;}
