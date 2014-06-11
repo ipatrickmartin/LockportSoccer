@@ -1,8 +1,14 @@
-body{
-	background-image: url('file:///C:/Users/Ian/Documents/GitHub/LockportSoccer/img/layout/Lock_Main_back.jpg');
+.homebody{
+	background-image: url('file:///C:/Users/imartin/Documents/GitHub/LockportSoccer/img/layout/Lock_Main_back.jpg');
 	background-repeat: no-repeat;
 	background-color: rgb(0,0,0);
 }
+.schedulebody{
+	background-image: url('file:///C:/Users/imartin/Documents/GitHub/LockportSoccer/img/layout/Lock_schedule_back.jpg');
+	background-repeat: no-repeat;
+	background-color: rgb(0,0,0);
+}
+
 #page_header{
 	padding: 110px;
 	border-top: 0px;
@@ -32,3 +38,38 @@ background-color:#009;
 }
 .mainrow {background-color:#FFF;	}
 .row .firstrow{margin: 10px;}
+.top-bar-section li:not(.has-form) a:not(.button) {
+	background-color:#009;
+}
+.upcoming{
+background-image: url('file:///C:/Users/imartin/Documents/GitHub/LockportSoccer/img/layout/upcoming.jpg');
+background-repeat: no-repeat;
+}
+.upcoming_toprow{
+	margin-bottom:10px;
+	height: 50px;
+}
+.row .second_spot_row{
+	margin-left: 1px;
+	margin-top: 30px;
+	margin-right: 0px;
+	margin-bottom: 145px;
+	background-color: transparent;
+}
+.small-4 .columns .upcoming{
+	padding-left: 1px;
+	padding-right: 1px;
+	background-image: url('file:///C:/Users/imartin/Documents/GitHub/LockportSoccer/img/layout/upcoming.jpg');
+	background-repeat: no-repeat;
+}
+.small-6 .columns .newgame{
+	padding: 0px;
+	margin: 0px;
+}
+.row .newscol{
+	margin-left: 1px;
+	margin-right: 0px;
+	margin-bottom: 7px;
+	background-color: transparent;
+
+}
