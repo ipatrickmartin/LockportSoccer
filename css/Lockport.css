@@ -1,14 +1,17 @@
 .homebody{
-	background-image: url('file:///C:/Users/imartin/Documents/GitHub/LockportSoccer/img/layout/Lock_Main_back.jpg');
+	/*background-image: url('file:///C:/Users/imartin/Documents/GitHub/LockportSoccer/img/layout/Lock_Main_back.jpg');*/
+	background-image: url('../img/layout/Lock_Main_back.jpg');
 	background-repeat: no-repeat;
 	background-color: rgb(0,0,0);
 }
 .schedulebody{
-	background-image: url('file:///C:/Users/imartin/Documents/GitHub/LockportSoccer/img/layout/Lock_schedule_back.jpg');
+	background-image: url('../img/layout/Lock_schedule_back.jpg');
 	background-repeat: no-repeat;
 	background-color: rgb(0,0,0);
 }
-
+.toptmp{
+	font-color:#FFF;
+}
 #page_header{
 	padding: 110px;
 	border-top: 0px;
@@ -72,4 +75,10 @@ background-repeat: no-repeat;
 	margin-bottom: 7px;
 	background-color: transparent;
 
+}
+.even {
+    background-color: #FFF;
+}
+.odd {
+    background-color: #EEE;
 }
