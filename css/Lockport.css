@@ -1,11 +1,11 @@
 .homebody{
 	/*background-image: url('file:///C:/Users/imartin/Documents/GitHub/LockportSoccer/img/layout/Lock_Main_back.jpg');*/
-	background-image: url('../img/layout/Lock_Main_back.jpg');
+	background-image: url('../img/layout/lock_main_back.jpg');
 	background-repeat: no-repeat;
 	background-color: rgb(0,0,0);
 }
 .schedulebody{
-	background-image: url('../img/layout/Lock_schedule_back.jpg');
+	background-image: url('../img/layout/lock_schedule_back.jpg');
 	background-repeat: no-repeat;
 	background-color: rgb(0,0,0);
 }
@@ -13,10 +13,13 @@
 	font-color:#FFF;
 }
 #page_header{
-	padding: 110px;
+	padding: 0px;
 	border-top: 0px;
 }
-	
+#schedule_page_header{
+	padding: 0px;
+	border-top: 0px;
+}	
 .top-bar{
 
 background-color:#009;
