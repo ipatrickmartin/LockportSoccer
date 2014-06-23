@@ -41,6 +41,9 @@ background-color:#009;
 }
 .mainrow {background-color:#FFF;	}
 .row .firstrow{margin: 10px;}
+.row .schfirstrow{margin: 10px;}
+.row .schtitlerow{margin: 10px;}
+.row .schgridrow{margin: 10px;}
 .top-bar-section li:not(.has-form) a:not(.button) {
 	background-color:#009;
 }
