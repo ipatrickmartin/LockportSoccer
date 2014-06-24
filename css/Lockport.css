@@ -51,7 +51,7 @@ background-color:#009;
 	background-color:#009;
 }
 .upcoming{
-background-image: url('file:///C:/Users/imartin/Documents/GitHub/LockportSoccer/img/layout/upcoming.jpg');
+background-image: url('../img/layout/upcoming.jpg');
 background-repeat: no-repeat;
 }
 .upcoming_toprow{
