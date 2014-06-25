@@ -30,9 +30,12 @@ background-color:#009;
 	padding: 10px;
 	background-color:#009;
 }
-.small-8 .column{
+.small-8 .columns{
 	border-color:#272;
 	border:10px;
+}
+.makewhite{
+	background-color: #FFF;
 }
 
 .panel.upcoming{
@@ -42,8 +45,24 @@ background-color:#009;
 .topborder{
 	background-color:#009;	
 }
-.mainrow {background-color:#FFF;	}
-.row .firstrow{margin: 10px;}
+.row .newsrow{
+	margin: 10px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+
+.row .firstrow{
+	margin: 10px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+.row .bottom_row{
+	margin: 0px;
+	margin-bottom: 30px;
+	padding:0px;
+}
 .row .schfirstrow{margin: 10px;}
 .row .schtitlerow{margin: 10px;}
 .row .schgridrow{margin: 10px;}
@@ -51,7 +70,11 @@ background-color:#009;
 	background-color:#009;
 }
 .upcoming{
-background-image: url('../img/layout/upcoming.jpg');
+background-image: url('../img/layout/right-bar-main-page.jpg');
+background-repeat: no-repeat;
+}
+.sponsor{
+background-image: url('../img/layout/sponser.jpg');
 background-repeat: no-repeat;
 }
 .upcoming_toprow{
@@ -82,9 +105,30 @@ background-repeat: no-repeat;
 	background-color: transparent;
 
 }
+.row .moose{
+	margin-left: 0px;
+	margin-top: 20px;
+	margin-right: 4px;
+	margin-bottom: 7px;
+	padding-left: 0px;
+	background-color: transparent;
+
+}
 .even {
     background-color: #FFF;
 }
 .odd {
     background-color: #EEE;
 }
+
+ .orbit-container .orbit-slides-container li .orbit-caption {
+	font-size: 1.35rem;
+	color: #FFF;
+}
+
+.mainrow {
+
+	background-image: url('../img/layout/right_back.jpg');
+	background-repeat: repeat;
+	margin-top: 0px;
+	}
