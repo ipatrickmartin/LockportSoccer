@@ -9,6 +9,12 @@
 	background-repeat: no-repeat;
 	background-color: rgb(0,0,0);
 }
+.rosterbody{
+	background-image: url('../img/layout/lock_roster_back.jpg');
+	background-repeat: no-repeat;
+	background-color: rgb(0,0,0);
+}
+
 .toptmp{
 	font-color:#FFF;
 }
